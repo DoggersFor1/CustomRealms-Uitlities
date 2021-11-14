@@ -1,0 +1,104 @@
+{
+    "A Simple command": {
+        "prefix": "crcmd",
+        "body": [
+          "// commmand",
+          "const aliases  = [''];",
+          "ServerCommands.register(aliases, player => {",
+          "",
+          "});",
+          ""
+        ],
+        "description": "A Simple command"
+      },
+      "BlockBreakEvent": {
+        "prefix": "crBBE",
+        "body": [
+          "//BlockBreak Event",
+          "ServerEvents.register(BlockBreakEvent, e => {",
+          "",
+          "});",
+          ""
+        ],
+        "description": "BlockBreakEvent"
+      },
+      "BlockEXPEvent": {
+        "prefix": "crEXP",
+        "body": [
+          "//BlockEXPEvent",
+          "ServerEvents.register(BlockExpEvent, e => {",
+          "",
+          "});"
+        ],
+        "description": "BlockEXPEvent"
+      },
+      "EntityDamageByBlockEvent": {
+        "prefix": "crEDBB",
+        "body": [
+          "//EntityDamageByBlockEvent",
+          "ServerEvents.register(EntityDamageByBlockEvent, e => {",
+          "",
+          "});"
+        ],
+        "description": "EntityDamageByBlockEvent"
+      },
+      "EntityDamageByEntityEvent": {
+        "prefix": "crEDBE",
+        "body": [
+          "//EntityDamageByEntityEvent",
+          "ServerEvents.register(EntityDamageByEntityEvent, e => {",
+          "",
+          "});"
+        ],
+        "description": "EntityDamageByEntityEvent"
+      },
+      "PlayerChatEvent": {
+        "prefix": "crPCE",
+        "body": [
+          "//PlayerChatEvent",
+          "ServerEvents.register(PlayerChatEvent, e => {",
+          "",
+          "});"
+        ],
+        "description": "PlayerChatEvent"
+      },
+      "PlayerInteractEvent": {
+        "prefix": "crPIE",
+        "body": [
+          "//PlayerInteractEvent",
+          "ServerEvents.register(PlayerInteractEvent, e => {",
+          "",
+          "});"
+        ],
+        "description": "PlayerInteractEvent"
+      },
+      "PlayerJoinEvent": {
+        "prefix": "crPJE",
+        "body": [
+          "//PlayerJoinEvent",
+          "ServerEvents.register(PlayerJoinEvent, e => {",
+          "",
+          "});"
+        ],
+        "description": "PlayerJoinEvent"
+      },
+      "PlayerQuitEvent": {
+        "prefix": "crPQE",
+        "body": [
+          "ServerEvents.register(PlayerQuitEvent, e => {",
+          "    ",
+          "});"
+        ],
+        "description": "PlayerQuitEvent"
+      },
+      "PlayerMoveEvent": {
+        "prefix": "crPME",
+        "body": [
+          "//PlayerMoveEvent",
+          "ServerEvents.register(PlayerMoveEvent, e => {",
+          "",
+          "});"
+        ],
+        "description": "PlayerMoveEvent"
+      }
+}
